@@ -1,0 +1,77 @@
+@media (max-width: 768px) {
+    body, .indx-body {
+        margin: 0;
+        padding: 0 10px;
+        overflow-x: hidden;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 15px 0;
+    }
+
+    nav a {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .indx-header h1 {
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: center;
+        margin: 0 auto;
+        word-break: break-word;
+    }
+
+    .indx-div-h1 {
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .indx-div3-h2 {
+        font-size: 18px;
+        width: 100%;
+        padding: 10px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .indx-ol-h3 {
+        font-size: 16px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    li {
+        margin-left: 25px;
+        font-size: 14px;
+    }
+
+    .indx-article, .indx-content {
+        width: 100%;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .indx-hp, .indx-p {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .indx-logo {
+        margin: 0 auto;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .indx-footer {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

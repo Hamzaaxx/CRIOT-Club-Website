@@ -1,0 +1,149 @@
+* {
+    font-family: 'Audiowide', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(to right, #191834, #2b2c68, #286a98, #26b7cd, #61bdaf);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    min-height: 100vh;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #1c3b57;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .header h1 {
+    font-size: 40px;
+    color: #00e5ff;
+    text-shadow: 2px 2px 8px rgba(0, 229, 255, 0.3);
+    text-transform: capitalize;
+  }
+  
+  .header p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .mains {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 15px;
+    margin-left: 100px;
+    overflow: hidden;
+    border: 3px solid #00e5ff;
+    background-color: #1c3b57;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    gap: 0;
+  }
+  
+  .sinfo {
+    background-color: #112d3f;
+    padding-left: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .sinfo h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #00e5ff;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .sinfo ul {
+    list-style: none;
+    padding-left: 0;
+   
+  }
+  
+  .sinfo li {
+    font-size: 16px;
+    margin-bottom: 12px;
+    transition: transform 0.2s, color 0.2s;
+  }
+  
+  .sinfo li:hover {
+    color: #00e5ff;
+    transform: translateX(10px);
+  }
+  
+  .sjoin {
+    background-color: #1f2f3d;
+    padding: 30px;
+    flex: 1.2;
+  }
+  
+  .sjoin h2 {
+    font-size: 24px;
+    color: #00e5ff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .sjoin form input,
+  .sjoin form textarea,
+  .sjoin form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #345a6c;
+    border-radius: 8px;
+    background-color: #112d3f;
+    color: white;
+    font-size: 15px;
+  }
+  
+  .sjoin form input[type="submit"] {
+    background-color: #00e5ff;
+    color: #1c3b57;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .submit:hover {
+    background-color: #00bcd4;
+    transform: scale(1.05);
+  }
+  
+  footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: black;
+    border-radius: 10px;
+    color: #00e5ff;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  footer a {
+    color: #11703d;
+    text-decoration: underline;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  footer a:hover {
+    color: #61bdaf;
+  }
+  
